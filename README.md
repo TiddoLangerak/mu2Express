@@ -6,7 +6,7 @@ mu2Express is a small node module with an express template engine function for t
 Example:
 
 ```javascript
-var mu2Express = require("mu2Expres");
+var mu2Express = require("mu2Express");
 var express = require("engine");
 var app = express();
 app.engine('mustache', mu2Express.engine);
