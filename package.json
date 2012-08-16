@@ -1,0 +1,18 @@
+{
+	"name" : "mu2express",
+	"version" : "0.0.1",
+	"author" : "Tiddo Langerak <tiddolangerak@gmail.com>",
+	"description" : "A package to use the Mu2 library as render engine for express.",
+	"dependencies" : {
+		"mu2": "0.5.x"
+	},
+	"engine" : {
+		"node" : "0.6.x"
+	},
+	"main" : "mu2Express.js",
+	"license": "MIT",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/TiddoLangerak/mu2Express.git"
+	}
+}
