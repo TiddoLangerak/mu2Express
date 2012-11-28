@@ -7,7 +7,7 @@ Example:
 
 ```javascript
 var mu2Express = require("mu2Express");
-var express = require("engine");
+var express = require("express");
 var app = express();
 app.engine('mustache', mu2Express.engine);
 app.set('view engine', 'mustache');
